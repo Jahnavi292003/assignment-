@@ -7,7 +7,7 @@ function showSum() {
   if (isNaN(val1) || isNaN(val2)) {
     resultEl.textContent = 'Please enter valid numbers in both fields.';
   } else {
-    resultEl.textContent = `The sum is: ${val1 + val2}`;
+    resultEl.textContent = `solution : ${val1 /  val2}`;
   }
 }
 
